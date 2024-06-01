@@ -1,97 +1,59 @@
-# KamaliDebug
+# DebugColors
 Easy way to Debug Colorful Texts in Unity Console
 
+### Important Note
+To properly use this code make sure to create the scriptable object and attach it to an object in your hierarchy.
 
-### Example 1 
-
-![image](https://user-images.githubusercontent.com/16706911/66844927-0af01480-ef7c-11e9-8202-a2d35878955e.png)
-
-
+To override Debug.Log use the following:
 ```
-    private void Start()
-    {
-    DebugX.Log(@"I:orange:b; love:red:b; Unity:yellow:b;
-    ColorfullllllllllllllllText:rainbow:b;");
-    
-    DebugX.Log("sniper:orange:b; bug:green:b;");
-
-    }
+using DebugColors;
+using Debug = DebugColors.DebugX;
 ```
-
-### Example 2
-
-
-![image](https://user-images.githubusercontent.com/16706911/67084273-808cf800-f1a9-11e9-9a12-a283fc66b957.png)
-
+Using only DebugColors use the following
 ```
-using UnityEngine;
-using KamaliDebug;
-public class Example : MonoBehaviour
-{
-    public int score;
-    public int health;
-    private void Start()
-    {
-        DebugX.Log($"Score = {score}:yellow:b;");
-        DebugX.Log($"Health = {health}:green:b;");
-    }
-}
+DebugX.Log
+```
+View the DebugColorsExample code for more information
+
+## Example 1
+![Screenshot_27](https://github.com/MidooriTV/ColorfulLogs/assets/130106855/677cfc4e-f906-4d50-acb4-9d4afcf7e6b5)
+```
+        Debug.Log(@"I:orange:b; love:red:b; 
+                        Colorful Logs:rainbow:b;", colorData);
+        Debug.Log("sniper:orange:b; bug:green:b;", colorData);
 ```
 
+## Example 2
+![Screenshot_28](https://github.com/MidooriTV/ColorfulLogs/assets/130106855/c228467a-a058-450f-9c6f-7ae64818094d)
+```
+        Debug.Log($"Score = {score}:yellow:b;", colorData);
+        Debug.Log($"Health = {health}:green:b;", colorData);
+```
 
+## Emojis
+![Screenshot_31](https://github.com/MidooriTV/ColorfulLogs/assets/130106855/f5088701-3cc0-4c6a-9425-db5088037223)
+```
+        Debug.Log("Hello:yellow:b; world:red:b;", colorData);
+        Debug.Log("acid:yellow:b;", colorData);
+        Debug.Log("bearflip:yellow:b;", colorData);
+        Debug.Log("blubby:yellow:b;", colorData);
+        Debug.Log("cry:yellow:b;", colorData);
+        Debug.Log("doubletableflip:yellow:b;", colorData);
+        Debug.Log("execution:yellow:b;", colorData);
+        Debug.Log("fly:yellow:b;", colorData);
+        Debug.Log("screwit:yellow:b;", colorData);
+```
 
-### Syntax 
+## Syntax
+```
+(Text or Emoji):Color:FontStyle;
+```
 
-```(Text or Emoji):Color:TextStyle;```
+## Font Style
++ b = Bold
++ i = Italic
 
-
-
-
-### Font Color
-
-```DebugX.Log("Hello world:green;");```
-
-
-
-
-![image](https://user-images.githubusercontent.com/16706911/66838611-d2e3d400-ef71-11e9-8721-c71773f4cd79.png)
-
-### Font Style 
-* b = Bold
-* i = Italic
-
-```DebugX.Log("Hello:b; World:i;");```
-
-
-    
-![image](https://user-images.githubusercontent.com/16706911/66840783-72569600-ef75-11e9-80c7-4d0d3e8ffab2.png)
-
-
-### Emoji
-
-```DebugX.Log("love:red:b; love:red:b; love:red:b;");```
-
-
-![image](https://user-images.githubusercontent.com/16706911/66839173-dd529d80-ef72-11e9-9010-eac6aaf06411.png)
-
-
-
-
-### Complex
-
-```DebugX.Log("Hello:yellow:b; world:red:b;");```
-
-![image](https://user-images.githubusercontent.com/16706911/66838419-7da7c280-ef71-11e9-83c6-d0dda9d5d75f.png)
-
-
-
-___________
-
-ToDo:
-
-1.optimization ( I call a regex per Debug.LogX I should prevent this in build).
-
-2.Add more fontstyles , colors and emojis
-
-3.Make ScriptableObject for Colors
-
+### To Do
+- [x] Removed Regex
+- [x] ScriptableObject for Colors
+- [ ] Add more font styles
