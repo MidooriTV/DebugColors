@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e995ea021a7347d4eb3ad932fcb0be3c, type: 3}
+  m_Name: ColorData
+  m_EditorClassIdentifier: 
+  black: {r: 0, g: 0, b: 0, a: 1}
+  white: {r: 1, g: 1, b: 1, a: 1}
+  darkred: {r: 0.5019608, g: 0, b: 0, a: 1}
+  red: {r: 1, g: 0, b: 0, a: 1}
+  firebrick: {r: 0.69803923, g: 0.13333334, b: 0.13333334, a: 1}
+  maroon: {r: 0.5019608, g: 0, b: 0, a: 1}
+  darkgreen: {r: 0, g: 0.5019608, b: 0, a: 1}
+  lime: {r: 0, g: 1, b: 0, a: 1}
+  green: {r: 0, g: 1, b: 0, a: 1}
+  forestgreen: {r: 0.13333334, g: 0.54509807, b: 0.13333334, a: 1}
+  limegreen: {r: 0.19607843, g: 0.8039216, b: 0.19607843, a: 1}
+  seagreen: {r: 0.18039216, g: 0.54509807, b: 0.34117648, a: 1}
+  springgreen: {r: 0, g: 1, b: 0.49803922, a: 1}
+  yellowgreen: {r: 0.6039216, g: 0.8039216, b: 0.19607843, a: 1}
+  darkblue: {r: 0, g: 0, b: 0.54509807, a: 1}
+  blue: {r: 0, g: 0, b: 1, a: 1}
+  royalblue: {r: 0.25490198, g: 0.4117647, b: 0.88235295, a: 1}
+  dodgerblue: {r: 0.11764706, g: 0.5647059, b: 1, a: 1}
+  deepskyblue: {r: 0, g: 0.7490196, b: 1, a: 1}
+  lightsteelblue: {r: 0.6901961, g: 0.76862746, b: 0.87058824, a: 1}
+  slateblue: {r: 0.41568628, g: 0.3529412, b: 0.8039216, a: 1}
+  mediumorchid: {r: 0.7294118, g: 0.33333334, b: 0.827451, a: 1}
+  mediumblue: {r: 0, g: 0, b: 0.8039216, a: 1}
+  midnightblue: {r: 0.09803922, g: 0.09803922, b: 0.4392157, a: 1}
+  yellow: {r: 1, g: 1, b: 0, a: 1}
+  gold: {r: 1, g: 0.84313726, b: 0, a: 1}
+  lightyellow: {r: 1, g: 1, b: 0.8784314, a: 1}
+  lemonchiffon: {r: 1, g: 0.98039216, b: 0.8039216, a: 1}
+  lightgoldenrodyellow: {r: 0.98039216, g: 0.98039216, b: 0.8235294, a: 1}
+  papayawhip: {r: 1, g: 0.9372549, b: 0.8352941, a: 1}
+  moccasin: {r: 1, g: 0.89411765, b: 0.70980394, a: 1}
+  peachpuff: {r: 1, g: 0.85490197, b: 0.7254902, a: 1}
+  palegoldenrod: {r: 0.93333334, g: 0.9098039, b: 0.6666667, a: 1}
+  khaki: {r: 0.9411765, g: 0.9019608, b: 0.54901963, a: 1}
+  darkkhaki: {r: 0.7411765, g: 0.7176471, b: 0.41960785, a: 1}
+  darkorange: {r: 1, g: 0.54901963, b: 0, a: 1}
+  orange: {r: 1, g: 0.64705884, b: 0, a: 1}
+  sandybrown: {r: 0.95686275, g: 0.6431373, b: 0.3764706, a: 1}
+  peru: {r: 0.8039216, g: 0.52156866, b: 0.24705882, a: 1}
+  tomato: {r: 1, g: 0.3882353, b: 0.2784314, a: 1}
+  orangeRed: {r: 1, g: 0.27058825, b: 0, a: 1}
+  darkcyan: {r: 0, g: 0.54509807, b: 0.54509807, a: 1}
+  cyan: {r: 0, g: 1, b: 1, a: 1}
+  aquamarine: {r: 0.49803922, g: 1, b: 0.83137256, a: 1}
+  teal: {r: 0, g: 0.5019608, b: 0.5019608, a: 1}
+  lightcyan: {r: 0.8784314, g: 1, b: 1, a: 1}
+  darkmagenta: {r: 0.54509807, g: 0, b: 0.54509807, a: 1}
+  magenta: {r: 1, g: 0, b: 1, a: 1}
+  fuchsia: {r: 1, g: 0, b: 1, a: 1}
+  purple: {r: 0.5019608, g: 0, b: 0.5019608, a: 1}
+  plum: {r: 0.8666667, g: 0.627451, b: 0.8666667, a: 1}
+  violet: {r: 0.93333334, g: 0.50980395, b: 0.93333334, a: 1}
+  gray: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  silver: {r: 0.7529412, g: 0.7529412, b: 0.7529412, a: 1}
+  dimgray: {r: 0.4117647, g: 0.4117647, b: 0.4117647, a: 1}
+  slategray: {r: 0.4392157, g: 0.5019608, b: 0.5647059, a: 1}
+  lightgray: {r: 0.827451, g: 0.827451, b: 0.827451, a: 1}
+  lavender: {r: 0.9019608, g: 0.9019608, b: 0.98039216, a: 1}
+  lightcoral: {r: 0.9411765, g: 0.5019608, b: 0.5019608, a: 1}
+  pink: {r: 1, g: 0.7529412, b: 0.79607844, a: 1}
+  lightpink: {r: 1, g: 0.7137255, b: 0.75686276, a: 1}
+  palevioletred: {r: 0.85882354, g: 0.4392157, b: 0.5764706, a: 1}
+  mistyrose: {r: 1, g: 0.89411765, b: 0.88235295, a: 1}
