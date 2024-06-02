@@ -16,22 +16,23 @@ DebugX.Log
 View the DebugColorsExample code for more information
 
 ## Example 1
-![Screenshot_27](https://github.com/MidooriTV/ColorfulLogs/assets/130106855/677cfc4e-f906-4d50-acb4-9d4afcf7e6b5)
+![Screenshot_27](https://github.com/MidooriTV/DebugColors/assets/130106855/f82b213b-b68f-45f5-8367-3e7f8c0626cc)
 ```
         Debug.Log(@"I:orange:b; love:red:b; 
                         Colorful Logs:rainbow:b;", colorData);
         Debug.Log("sniper:orange:b; bug:green:b;", colorData);
 ```
 
+
 ## Example 2
-![Screenshot_28](https://github.com/MidooriTV/ColorfulLogs/assets/130106855/c228467a-a058-450f-9c6f-7ae64818094d)
+![Screenshot_28](https://github.com/MidooriTV/DebugColors/assets/130106855/bb35538d-5422-4e89-8817-e164f8b81c7d)
 ```
         Debug.Log($"Score = {score}:yellow:b;", colorData);
         Debug.Log($"Health = {health}:green:b;", colorData);
 ```
 
 ## Emojis
-![Screenshot_31](https://github.com/MidooriTV/ColorfulLogs/assets/130106855/f5088701-3cc0-4c6a-9425-db5088037223)
+![Screenshot_31](https://github.com/MidooriTV/DebugColors/assets/130106855/9e44c53c-2c6a-4484-90d5-44a225f38441)
 ```
         Debug.Log("Hello:yellow:b; world:red:b;", colorData);
         Debug.Log("acid:yellow:b;", colorData);
